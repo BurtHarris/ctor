@@ -1,0 +1,27 @@
+{
+  "name": "ctor",
+  "version": "0.0.1",
+  "description": "Text based representation for CBOR data",
+  "main": "dist/index.js",
+  "repository": "https://github.com/BurtHarris/ctor",
+  "author": "Burt Harris",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "@types/yaml": "^1.2.0",
+    "jest": "25.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "yaml": "^1.8.3"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
